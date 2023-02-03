@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    background-color: rgb(55,0,60); 
+    /* justify-content: center; */
+}
+
+header h1{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 3.5rem;
+} 
+
+.nav-container{
+    display: flex;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+.nav-content{
+    /* background-color: brown; */
+    width: 100%;
+}
+
+.nav-img{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    /* background-color: black; */
+    
+}
+
+.nav-img img{
+    width: 180px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
